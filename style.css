@@ -1,0 +1,391 @@
+/*Initial setting*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a, a:hover {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 85%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  padding :26px 20px;
+}
+ section {
+   padding: 20px 0;
+   background-color: #fafafa;
+   
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 75px;
+  letter-spacing: 2px;
+  line-height: 50px ;
+}
+
+
+
+
+
+
+/* <!--header  --> */
+#header {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+#header.container {
+  width: 100%;
+  
+}
+
+.header-item {
+  background-color:#fff;
+  width:100%;
+  height:20px;
+  float: left;
+  width: 33.3333333%;
+  text-align: center;
+  font-size:25px;
+}
+ 
+
+
+
+#logo {
+  width: 50%;
+  float:left;
+  position: relative;
+  padding-right: 170px;
+}
+
+#logo-name {
+ position: absolute;
+ left : 55px;
+ font-family:'Noto Sans TC', 'sans-serif';
+ text-transform: capitalize;
+ border-left:1px solid black;
+ padding-left :15px;
+}
+
+.form-input {
+  width: 100%;
+  position: relative;
+}
+
+.form-input input {
+  width: 200px;
+  height: 28px;
+  padding: 3px;
+  text-align: center;
+  background-color:#FAFAFA;
+  margin: 0 auto ;
+  border:1px solid #999999;
+  z-index: -1;  
+  outline: none ;
+}
+
+.form-input i {
+  font-size : 13px;
+  color :gray;
+  z-index: 2;
+  position: absolute;
+  left: 150px;
+  top:16px;
+}
+
+.menu {
+  padding-left:228px;
+}
+
+.menu a i {
+  display: inline-block;
+  margin:0 10px;
+}
+
+/* <!--content  --> */
+/*post */
+.post {
+  width: 65%;
+  float :left ;
+}
+.post-item {
+  background:#fff;
+  width: 100%;
+  height: 100%;
+  border :1px solid #E6E6E6;
+}
+.post-account .post-icon {
+  float :left ;
+  margin: 0 10px;
+  padding-top:10px;
+}
+
+.post-account .post-name {
+  text-transform: capitalize;
+  padding-top:15px;
+}
+
+.post-img {
+padding-top : 10px; 
+
+}
+
+.info-icon {
+  font-size :25px;
+  line-height:40px;
+  margin-top:10px;
+}
+
+.col-left a i{
+  display: inline-block;
+  margin-left:15px;
+  float: left ;
+}
+
+.col-right a i {
+  float :right ;
+  padding-right: 15px;
+}
+
+.info-content {
+  margin-left:15px;
+  margin-top:5px; 
+}
+
+.info-content h3 {
+  font-size:15px ;
+  line-height:25px;
+}
+
+.info-content h4 {
+  display: inline-block ;
+  line-height:25px;
+}
+
+.info-content a {
+  color :gray ;
+}
+
+.info-content p {
+  font-size : 3px;
+  text-transform: uppercase;
+  line-height:25px;
+  color :gray ;
+}
+
+.info-add {
+  border-top :1px solid #E6E6E6;
+  padding-top:10px;
+  margin-left:15px;
+} 
+
+.info-comment {
+  float:left;
+}
+#comment {
+  border : none ;
+  outline :none ;
+}
+
+.info-option a i {
+  float: right;
+  padding-right: 15px;
+  font-size :18px
+}
+
+/*aside*/
+.aside {
+  float:right;
+  width: 33%;
+}
+
+.aside-icon {
+  float:left;
+  margin-right: 10px;
+}
+
+.aside-name h3 {
+  font-size :13px;
+  padding-top:10px;
+  line-height:15px;
+}
+
+.aside-name p {
+  font-size:10px;
+}
+
+.aside-stories {
+  border: 1px solid #E6E6E6;
+  background-color:white;
+  margin-top:10px;
+  height :180px;
+  overflow :auto;
+}
+
+.story-header p {
+  float : left; 
+  text-transform: capitalize;
+  font-size :12px;
+  padding :10px;
+}
+
+.story-header a {
+  float : right;
+  padding :10px;
+  text-transform: capitalize;
+  font-size : 12px ;
+}
+
+.story-user  {
+  margin :10px;
+
+}
+
+.user {
+  float: left;
+  margin-right:10px;
+}
+
+.user-name {
+  font-size :12px;
+  line-height:10px;
+  padding-top : 5px;
+}
+
+.user-time {
+/*   float : left ; */
+  font-size :5px;
+}
+
+/* suggest */
+.aside-suggest {
+  margin-top :15px;
+  background: white;
+  border :1px solid #E6E6E6;
+  padding: 20px 10px;
+  height :195px
+}
+
+.suggest-user {
+  margin-bottom:10px;
+}
+
+.sug-header p {
+  float : left ;
+  padding-left:5px;
+  padding-bottom:10px;
+  text-transform: capitalize;
+  color : gray ;
+  font-size :12px;
+}
+
+.sug-header a {
+  float :right;
+  padding-right :16px;
+  text-transform: capitalize;
+  font-size :12px;
+}
+
+.user-name1  {
+  float :left;
+}
+
+.user-name1 a {
+  font-size :12px;
+}
+
+.user-name1 p {
+  font-size :5px;
+  line-height:10px;
+  color :gray ;
+}
+
+.user-follow {
+  float:right;
+  padding-right :16px;
+  line-height :25px;
+  text-transform: capitalize;
+  font-size :12px;
+}
+
+.user-follow a {
+  color : #007bff;
+}
+
+/* <!--  company        --> */
+.aside-about {
+  margin-top :20px;
+}
+
+.about-company {
+    width: 300px;
+    color: #A9A9A9;
+    margin-top: 15px;
+    font-size: 12px;
+  text-transform: capitalize;
+}
+.about-company p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
